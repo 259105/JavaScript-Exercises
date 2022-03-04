@@ -12,7 +12,7 @@ for(let i=0; i<2; i++){
     improved_scores.splice(lowest_pos,1);
 }
 
-console.log(scores);
+console.log(scores.join(","));
 console.log(improved_scores);
 
 let sum=0;
@@ -21,5 +21,5 @@ for(let score of improved_scores)
 const avg = Math.round(sum/improved_scores.length);
 improved_scores.push(avg, avg);
 
-console.log(scores);
+console.log(scores.join(", "));
 console.log(improved_scores);
