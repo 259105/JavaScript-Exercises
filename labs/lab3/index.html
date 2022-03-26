@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="author" content="Michele Cerra">
+        <meta name="description" content="Lab 3">
+        <title>Exams</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- <script src='main.js'></script> -->
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-color-blue">
+                <div class="container-fluid">
+                  <div class="navbar-brand">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16" class="d-inline-block align-text-top">
+                        <path d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z"/>
+                        <path d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z"/>
+                      </svg>
+                    Film Library
+                  </div>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                  <div class="navbar-brand">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                      </svg>
+                  </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <aside class="col-4 d-none d-sm-block">
+                    <ul class="no-dot">
+                        <li class="li-aside current" value="enabled">All</li>
+                        <li class="li-aside">Favorites</li>
+                        <li class="li-aside">Best Rated</li>
+                        <li class="li-aside">Last Seen</li>
+                        <li class="li-aside">Seen Last Month</li>
+                    </ul>
+                </aside>
+                <main class="col-12 col-sm-8 d-block">
+                    <h1>All</h1>
+                    <div class="container-fluid">
+                        <div class="row row-film favorite-film">
+                            <div class="col-4 film-title">Pulp Fiction</div>
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Favorite
+                                    </label>
+                                  </div>
+                            </div>
+                            <div class="col"> March 10, 2022 </div>
+                            <div class="col">
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                            </div>
+                        </div>
+                        <div class="row row-film favorite-film">
+                            <div class="col-4 film-title"> 21 Grams </div>
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Favorite
+                                    </label>
+                                  </div>
+                            </div>
+                            <div class="col"> March 17, 2022 </div>
+                            <div class="col">
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                        <div class="row row-film">
+                            <div class="col-4 film-title"> Star Wars </div>
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Favorite
+                                    </label>
+                                  </div>
+                            </div>
+                            <div class="col">  </div>
+                            <div class="col">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                            </div>
+                        </div>
+                        <div class="row row-film">
+                            <div class="col-4 film-title"> Matrix </div>
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Favorite
+                                    </label>
+                                  </div>
+                            </div>
+                            <div class="col">  </div>
+                            <div class="col">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                            </div>
+                        </div>
+                        <div class="row row-film">
+                            <div class="col-4 film-title"> Shrek </div>
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Favorite
+                                    </label>
+                                  </div>
+                            </div>
+                            <div class="col"> March 21  , 2022 </div>
+                            <div class="col">
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star checked-star"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fab-wrapper">
+                        <button class="fab" type="button">+</button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
