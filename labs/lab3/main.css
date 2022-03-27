@@ -56,6 +56,9 @@ aside{
     color: red;
 }
 
+.stars-box{
+    min-width: 116px;
+}
 
 .checked-star{
     color:orange;
