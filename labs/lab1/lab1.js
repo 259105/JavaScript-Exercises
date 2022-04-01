@@ -25,7 +25,7 @@ function Film(id, title,/*  isFavorite = false, date, rating */ ...pars){
             this.rating = pars[i];
         else
             console.log("Invalid parameters");
-    }
+    }   
 
     // default values
     this.isFavorite = this.isFavorite || false; 
